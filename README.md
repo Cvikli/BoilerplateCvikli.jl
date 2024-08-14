@@ -104,6 +104,7 @@ Here are some other productivity tools I recommend:
 - I have a fork of the julia-vscode plugin, that is also extremly useful, I cannot emphasize this. Sadly Python cannot do this this well like julia, actually this is the main reason julia is the best language of today. 
 - sysimage creator that is also really great! Also that can precompile packages while keeping it modifiable from outside. As of julia 1.9 version is out, this is less of a big deal.
 - PkgResolver package, that could be expanded and added to sysimage so it would automatically find the problem and resolve packages added with "add" and "dev". This project's goal is to reduce the problem of package resolving to just running one simple script.    
+- Also there is [ExtremeBoilerplate](https://github.com/Cvikli/ExtremeBoilerplate.jl) which introduce Type Piracy issues too to further improve the codebase. (Also if the specified package adopt the function then it won't cause type piracy. :) )
 
 
 ## Sidenote
