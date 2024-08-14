@@ -39,7 +39,7 @@ a1 = (randn(Float32, 2,4,2),a2,(rand(1:10,100,5), randn(Float32,100,9)))
 # Beautiful print!
 @display q = randn(6,3)
 
-using BoilerplateCvikli: push_ifne!, findfirst_typed, idxI, @get, @async_showerr
+using BoilerplateCvikli: push_ifne!, findfirst_typed, idxI, @async_showerr
 
 
 push_ifne!(a2, 3)
@@ -55,8 +55,6 @@ push_ifne!(a2, 4) # Push if not exists
 a3 = idxI.(a1, 1) # of course it isn't that beautiful syntax... but isn't used frequently anyways! It also works with Vector{Matrix[Float32]} or anything...
 @typeof a3
 @sizes a3
-
-@get tracked.[:y, :y]   # get multiple values from dict like from the arrays in a beautiful way!
 
 fn2(x) = begin
   println(x)
