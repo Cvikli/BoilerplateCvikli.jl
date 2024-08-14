@@ -1,0 +1,8 @@
+name = "BoilerplateCvikli"
+uuid = "9c9f911a-9395-49bd-b3fc-139ceb24aa85"
+authors = ["Cvikli <havlikmarcell@gmail.com>"]
+version = "1.0.5"
+
+
+[compat]
+julia = "^1.5"
